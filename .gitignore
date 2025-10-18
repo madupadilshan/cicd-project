@@ -1,0 +1,31 @@
+# 1. Dependencies (අපි install කරන libraries)
+# මේක තමයි වැදගත්ම දේ. මේ folder එක rấtම විශාලයි.
+# 'npm install' ගැහුවම මේක ආයෙ හදාගන්න පුළුවන්.
+/node_modules
+
+# 2. Log Files (Errors සහ තොරතුරු save වෙන files)
+npm-debug.log
+npm-debug.log.*
+yarn-error.log
+yarn-debug.log
+
+# 3. Environment Variables (Passwords, API Keys තියෙන file)
+# !! මෙය කිසිම වෙලාවක GitHub එකට දාන්න එපා !!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 4. OS-specific Files (Operating System එකෙන් හැදෙන files)
+.DS_Store
+Thumbs.db
+
+# 5. Build output (Build කළාම හැදෙන output folders)
+/dist
+/build
+
+# 6. AWS Key Files (ඔබේ server key එක)
+# .pem file එකක් වැරදිලාවත් project folder එකට දැම්මොත්,
+# ඒක commit වෙන එක නවත්තනවා.
+*.pem
